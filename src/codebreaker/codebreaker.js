@@ -1,10 +1,10 @@
 class CodeBreaker {
-  constructor(code) {
+  constructor(code = 5) {
     this.code = code;
   }
 
   arriesgar(intento) {
-    return "Ganaste!";
+    return intento == this.code ? "Ganaste!" : "No Ganaste";
   }
 }
 
