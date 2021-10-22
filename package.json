@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "test": "jest --watch --env='jsdom'",
+    "test": "jest --watch --env='jsdom' --coverage",
     "test-once": "jest --env='jsdom' --coverage",
     "test-ui": "jest --env='jsdom'",
     "start": "parcel codebreaker.html",
